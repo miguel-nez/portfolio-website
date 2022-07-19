@@ -1,0 +1,300 @@
+/* Colors used: 
+white (background): 
+black (text, lines):
+red (secondary):
+*/
+
+/* Fonts */
+
+@font-face {
+    font-family: 'Modern Era TRIAL';
+    src: url('fonts/Modern_Era/Normal/ModernEraTRIAL-Light.eot');
+    src: url('fonts/Modern_Era/Normal/ModernEraTRIAL-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Modern_Era/Normal/ModernEraTRIAL-Light.woff2') format('woff2'),
+        url('fonts/Modern_Era/Normal/ModernEraTRIAL-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Modern Era TRIAL';
+    src: url('fonts/Modern_Era/Normal/ModernEraTRIAL-Black.eot');
+    src: url('fonts/Modern_Era/Normal/ModernEraTRIAL-Black.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Modern_Era/Normal/ModernEraTRIAL-Black.woff2') format('woff2'),
+        url('fonts/Modern_Era/Normal/ModernEraTRIAL-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Modern Era TRIAL ExBold';
+    src: url('fonts/Modern_Era/Normal/ModernEraTRIAL-ExtraBoldItalic.eot');
+    src: url('fonts/Modern_Era/Normal/ModernEraTRIAL-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Modern_Era/Normal/ModernEraTRIAL-ExtraBoldItalic.woff2') format('woff2'),
+        url('fonts/Modern_Era/Normal/ModernEraTRIAL-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Modern Era TRIAL';
+    src: url('fonts/Modern_Era/Normal/ModernEraTRIAL-Regular.eot');
+    src: url('fonts/Modern_Era/Normal/ModernEraTRIAL-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Modern_Era/Normal/ModernEraTRIAL-Regular.woff2') format('woff2'),
+        url('fonts/Modern_Era/Normal/ModernEraTRIAL-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Modern Era TRIAL';
+    src: url('fonts/Modern_Era/Normal/ModernEraTRIAL-Bold.eot');
+    src: url('fonts/Modern_Era/Normal/ModernEraTRIAL-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Modern_Era/Normal/ModernEraTRIAL-Bold.woff2') format('woff2'),
+        url('fonts/Modern_Era/Normal/ModernEraTRIAL-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Modern Era TRIAL';
+    src: url('fonts/Modern_Era/Normal/ModernEraTRIAL-LightItalic.eot');
+    src: url('fonts/Modern_Era/Normal/ModernEraTRIAL-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Modern_Era/Normal/ModernEraTRIAL-LightItalic.woff2') format('woff2'),
+        url('fonts/Modern_Era/Normal/ModernEraTRIAL-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Modern Era TRIAL';
+    src: url('fonts/Modern_Era/Normal/ModernEraTRIAL-BoldItalic.eot');
+    src: url('fonts/Modern_Era/Normal/ModernEraTRIAL-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Modern_Era/Normal/ModernEraTRIAL-BoldItalic.woff2') format('woff2'),
+        url('fonts/Modern_Era/Normal/ModernEraTRIAL-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Modern Era TRIAL';
+    src: url('fonts/Modern_Era/Normal/ModernEraTRIAL-ExtraBold.eot');
+    src: url('fonts/Modern_Era/Normal/ModernEraTRIAL-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Modern_Era/Normal/ModernEraTRIAL-ExtraBold.woff2') format('woff2'),
+        url('fonts/Modern_Era/Normal/ModernEraTRIAL-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Modern Era TRIAL';
+    src: url('fonts/Modern_Era/Normal/ModernEraTRIAL-BlackItalic.eot');
+    src: url('fonts/Modern_Era/Normal/ModernEraTRIAL-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Modern_Era/Normal/ModernEraTRIAL-BlackItalic.woff2') format('woff2'),
+        url('fonts/Modern_Era/Normal/ModernEraTRIAL-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Modern Era TRIAL';
+    src: url('fonts/Modern_Era/Normal/ModernEraTRIAL-MediumItalic.eot');
+    src: url('fonts/Modern_Era/Normal/ModernEraTRIAL-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Modern_Era/Normal/ModernEraTRIAL-MediumItalic.woff2') format('woff2'),
+        url('fonts/Modern_Era/Normal/ModernEraTRIAL-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Modern Era TRIAL';
+    src: url('fonts/Modern_Era/Normal/ModernEraTRIAL-Italic.eot');
+    src: url('fonts/Modern_Era/Normal/ModernEraTRIAL-Italic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Modern_Era/Normal/ModernEraTRIAL-Italic.woff2') format('woff2'),
+        url('fonts/Modern_Era/Normal/ModernEraTRIAL-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Modern Era TRIAL';
+    src: url('fonts/Modern_Era/Normal/ModernEraTRIAL-Medium.eot');
+    src: url('fonts/Modern_Era/Normal/ModernEraTRIAL-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Modern_Era/Normal/ModernEraTRIAL-Medium.woff2') format('woff2'),
+        url('fonts/Modern_Era/Normal/ModernEraTRIAL-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* General */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Modern Era TRIAL", 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+}
+
+/* Headers & Paragraph */
+h1 {
+    font-weight: 400;
+    margin: 0px;
+    font-size: 20px;
+}
+
+h2 {
+    font-weight: 300;
+    margin: 0px;
+    font-size: 20px;
+}
+
+p {
+    margin: unset;
+}
+
+/* Links */
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: red 0.2s;
+}
+
+a:active {
+    color: black;
+}
+
+a:hover {
+    color: rgb(83, 83, 83) ;
+}
+
+a:focus {
+    color: red;
+}
+
+
+/* Navigation */
+
+.nav {
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid black;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    left: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.nav a {
+    padding: 16px;
+    font-weight: 400;
+}
+
+main {
+    padding-top: 60px;
+}
+
+
+/* Work Section */
+
+.image {
+    line-height: 0;
+}
+
+h2 {
+    padding-top: 4px;
+}
+
+.description {
+    margin: 0;
+    padding: 8px;
+    text-transform: uppercase;
+    border-bottom: 1px solid black ;
+}
+
+.description .year {
+    text-align: right;
+}
+
+
+/* About */
+
+#about {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+}
+
+.about_me {
+    margin: 24px 16px 0;
+}
+
+.about_me p {
+    padding-top: 8px;
+}
+
+.skills_tools {
+    margin: 0 16px;
+    padding-bottom: 80px;
+}
+
+.profile_pic {
+    display: block;
+    margin: 64px auto;
+}
+
+/* Footer */
+
+.contact {
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 42px auto;
+    padding: 0 48px;
+}
+.copyright {
+    text-align: left;
+    font-size: 12px;
+    font-weight: 200;
+    padding: 8px;
+}
+
+.contact-links {
+    padding-top: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#footer img {
+    width: 24px;
+}
+
+.smile {
+    text-align: right;
+    padding: 40px 30% 80px 0px;
+}
