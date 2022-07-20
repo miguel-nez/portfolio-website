@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Miguel Núñez Núñez, miguel.nez@gmail.com">
+        <meta name="keywords" content="ux, ui, designer, cologne, köln, koeln, web, app, portfolio, case study, simplex, immigrant, germany, assistance, legal, bureaucracy, ted, vocabulary, english, learn">
+        <meta name="publisher" content="Miguel Núñez Núñez">
+        <meta name="description" content="Portfolio and profile of Spanish UX Designer and frontend developer based in Germany">
+        <title>Nunez</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Styles -->
+        <link href="styles.css" rel="stylesheet">
+        <link rel="sty]lesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    </head>
+
+    <body>
+        <header>
+            <div id="nav">
+                <nav class="nav">
+                    <a href="index.html">NUNEZ</a>
+                    <a href="about.html">ABOUT</a>
+                    <a href="#footer">SAY HI!</a>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div></div>
+            <div></div>
+                        
+        </main>
+
+        <footer id="footer">
+            <div class="container">
+                <div class="contact">
+                    <div>
+                        <p>Give me a shout via</p>
+                    </div>
+                    <br>
+                    <div class="contact-links">
+                        <a href="">
+                            <img src="files/icons/phone.png" alt="phone icon">
+                            <p>phone call</p>
+                        </a>
+                        <a href="mailto:miguel.nez@gmail.com">
+                            <img src="files/icons/mail.png" alt="email icon">
+                            <p>email</p>
+                        </a>
+                        <a href="mailto:miguel.nez@gmail.com">
+                            <img src="files/icons/send.png" alt="telegram icon">
+                            <p>telegram</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="smile">
+                    <h1>:)</h1>
+                </div>
+
+                <div class="copyright">
+                    <p>©MIGUELXNXN2022</p>
+                </div>
+
+            </div>
+        </footer>
+
+    </body>
+</html>
