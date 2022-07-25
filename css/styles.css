@@ -4,7 +4,16 @@ black (text, lines):
 red (secondary):
 */
 
-/* Fonts */
+/* Fonts 
+h1: Modern Era 400, 20px
+h2: Modern Era 300, 20px
+p: Modern Era 300, 20px
+h3: (smaller text) Modern Era 300, 16px, line hight 24px
+italics: Modern Era 300, 16px
+*/
+
+/* Pixel grid: 8px */
+
 
 @font-face {
     font-family: 'Modern Era TRIAL';
@@ -146,7 +155,7 @@ red (secondary):
 
 body {
     margin: 0;
-    font-family: "Modern Era TRIAL", 'Arial', sans-serif;
+    font-family: "Modern Era TRIAL", "Helvetica", "Arial", sans-serif;
     font-size: 20px;
     font-weight: 300;
     color: black;
@@ -170,9 +179,17 @@ h2 {
     font-size: 20px;
 }
 
+h3 {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+}
+
 p {
     margin: unset;
 }
+
 
 /* Links */
 a {
@@ -264,6 +281,27 @@ h2 {
 .profile_pic {
     display: block;
     margin: 64px auto;
+}
+
+/* Simplex */
+
+.wrapper {
+    margin: 24px 16px 0;
+}
+
+.basic-details {
+    padding-left: 16px;
+    border-left: 1px solid black;
+}
+
+.challange {
+    padding-left: 16px;
+    border-left: 1px solid black;
+}
+
+.solution {
+    padding-left: 16px;
+    border-left: 1px solid black;
 }
 
 /* Footer */
