@@ -286,7 +286,12 @@ h2 {
 /* Simplex */
 
 .wrapper {
-    margin: 24px 16px 0;
+    margin: 0 16px 0;
+}
+
+.proj-name {
+    font-size: 40px;
+    padding-top: 16px;
 }
 
 .basic-details {
