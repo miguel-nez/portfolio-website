@@ -154,11 +154,12 @@ italics: Modern Era 300, 16px
 }
 
 body {
-    margin: 0;
+    margin: unset;
     font-family: "Modern Era TRIAL", "Helvetica", "Arial", sans-serif;
     font-size: 20px;
     font-weight: 300;
     color: black;
+    background-color: white;
 }
 
 /* Images */
@@ -307,6 +308,11 @@ h2 {
 .solution {
     padding-left: 16px;
     border-left: 1px solid black;
+}
+
+.interlude {
+    display: inline-block !important; 
+    margin: 32px auto;
 }
 
 /* Footer */
