@@ -290,9 +290,18 @@ h2 {
     margin: 0 16px 0;
 }
 
+.proj-img {
+    width: 80%;
+    text-align: right;
+}
+
 .proj-name {
     font-size: 40px;
-    padding-top: 16px;
+    padding-top: 32px;
+}
+
+.proj-sub {
+    padding-bottom: 45px;
 }
 
 .basic-details {
@@ -312,6 +321,7 @@ h2 {
 
 .interlude {
     margin: 90px auto;
+    text-align: center;
 }
 
 /* Footer */
