@@ -17,10 +17,10 @@ italics: Modern Era 300, 16px
 
 @font-face {
     font-family: 'Modern Era TRIAL';
-    src: url('.fonts/Modern_Era/Normal/ModernEraTRIAL-Light.eot');
-    src: url('.fonts/Modern_Era/Normal/ModernEraTRIAL-Light.eot?#iefix') format('embedded-opentype'),
-        url('.fonts/Modern_Era/Normal/ModernEraTRIAL-Light.woff2') format('woff2'),
-        url('.fonts/Modern_Era/Normal/ModernEraTRIAL-Light.woff') format('woff');
+    src: url('./fonts/Modern_Era/Normal/ModernEraTRIAL-Light.eot');
+    src: url('./fonts/Modern_Era/Normal/ModernEraTRIAL-Light.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Modern_Era/Normal/ModernEraTRIAL-Light.woff2') format('woff2'),
+        url('./fonts/Modern_Era/Normal/ModernEraTRIAL-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -28,10 +28,10 @@ italics: Modern Era 300, 16px
 
 @font-face {
     font-family: 'Modern Era TRIAL';
-    src: url('.fonts/Modern_Era/Normal/ModernEraTRIAL-Black.eot');
-    src: url('.fonts/Modern_Era/Normal/ModernEraTRIAL-Black.eot?#iefix') format('embedded-opentype'),
-        url('.fonts/Modern_Era/Normal/ModernEraTRIAL-Black.woff2') format('woff2'),
-        url('.fonts/Modern_Era/Normal/ModernEraTRIAL-Black.woff') format('woff');
+    src: url('./fonts/Modern_Era/Normal/ModernEraTRIAL-Black.eot');
+    src: url('./fonts/Modern_Era/Normal/ModernEraTRIAL-Black.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Modern_Era/Normal/ModernEraTRIAL-Black.woff2') format('woff2'),
+        url('./fonts/Modern_Era/Normal/ModernEraTRIAL-Black.woff') format('woff');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -39,10 +39,10 @@ italics: Modern Era 300, 16px
 
 @font-face {
     font-family: 'Modern Era TRIAL ExBold';
-    src: url('.fonts/Modern_Era/Normal/ModernEraTRIAL-ExtraBoldItalic.eot');
-    src: url('.fonts/Modern_Era/Normal/ModernEraTRIAL-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('.fonts/Modern_Era/Normal/ModernEraTRIAL-ExtraBoldItalic.woff2') format('woff2'),
-        url('.fonts/Modern_Era/Normal/ModernEraTRIAL-ExtraBoldItalic.woff') format('woff');
+    src: url('./fonts/Modern_Era/Normal/ModernEraTRIAL-ExtraBoldItalic.eot');
+    src: url('./fonts/Modern_Era/Normal/ModernEraTRIAL-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Modern_Era/Normal/ModernEraTRIAL-ExtraBoldItalic.woff2') format('woff2'),
+        url('./fonts/Modern_Era/Normal/ModernEraTRIAL-ExtraBoldItalic.woff') format('woff');
     font-weight: bold;
     font-style: italic;
     font-display: swap;
@@ -50,10 +50,10 @@ italics: Modern Era 300, 16px
 
 @font-face {
     font-family: 'Modern Era TRIAL';
-    src: url('.fonts/Modern_Era/Normal/ModernEraTRIAL-Regular.eot');
-    src: url('.fonts/Modern_Era/Normal/ModernEraTRIAL-Regular.eot?#iefix') format('embedded-opentype'),
-        url('.fonts/Modern_Era/Normal/ModernEraTRIAL-Regular.woff2') format('woff2'),
-        url('.fonts/Modern_Era/Normal/ModernEraTRIAL-Regular.woff') format('woff');
+    src: url('./fonts/Modern_Era/Normal/ModernEraTRIAL-Regular.eot');
+    src: url('./fonts/Modern_Era/Normal/ModernEraTRIAL-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Modern_Era/Normal/ModernEraTRIAL-Regular.woff2') format('woff2'),
+        url('./fonts/Modern_Era/Normal/ModernEraTRIAL-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -61,10 +61,10 @@ italics: Modern Era 300, 16px
 
 @font-face {
     font-family: 'Modern Era TRIAL';
-    src: url('.fonts/Modern_Era/Normal/ModernEraTRIAL-Bold.eot');
-    src: url('.fonts/Modern_Era/Normal/ModernEraTRIAL-Bold.eot?#iefix') format('embedded-opentype'),
-        url('.fonts/Modern_Era/Normal/ModernEraTRIAL-Bold.woff2') format('woff2'),
-        url('.fonts/Modern_Era/Normal/ModernEraTRIAL-Bold.woff') format('woff');
+    src: url('./fonts/Modern_Era/Normal/ModernEraTRIAL-Bold.eot');
+    src: url('./fonts/Modern_Era/Normal/ModernEraTRIAL-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Modern_Era/Normal/ModernEraTRIAL-Bold.woff2') format('woff2'),
+        url('./fonts/Modern_Era/Normal/ModernEraTRIAL-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -72,10 +72,10 @@ italics: Modern Era 300, 16px
 
 @font-face {
     font-family: 'Modern Era TRIAL';
-    src: url('.fonts/Modern_Era/Normal/ModernEraTRIAL-LightItalic.eot');
-    src: url('.fonts/Modern_Era/Normal/ModernEraTRIAL-LightItalic.eot?#iefix') format('embedded-opentype'),
-        url('.fonts/Modern_Era/Normal/ModernEraTRIAL-LightItalic.woff2') format('woff2'),
-        url('.fonts/Modern_Era/Normal/ModernEraTRIAL-LightItalic.woff') format('woff');
+    src: url('./fonts/Modern_Era/Normal/ModernEraTRIAL-LightItalic.eot');
+    src: url('./fonts/Modern_Era/Normal/ModernEraTRIAL-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Modern_Era/Normal/ModernEraTRIAL-LightItalic.woff2') format('woff2'),
+        url('./fonts/Modern_Era/Normal/ModernEraTRIAL-LightItalic.woff') format('woff');
     font-weight: 300;
     font-style: italic;
     font-display: swap;
@@ -83,10 +83,10 @@ italics: Modern Era 300, 16px
 
 @font-face {
     font-family: 'Modern Era TRIAL';
-    src: url('.fonts/Modern_Era/Normal/ModernEraTRIAL-BoldItalic.eot');
-    src: url('.fonts/Modern_Era/Normal/ModernEraTRIAL-BoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('.fonts/Modern_Era/Normal/ModernEraTRIAL-BoldItalic.woff2') format('woff2'),
-        url('.fonts/Modern_Era/Normal/ModernEraTRIAL-BoldItalic.woff') format('woff');
+    src: url('./fonts/Modern_Era/Normal/ModernEraTRIAL-BoldItalic.eot');
+    src: url('./fonts/Modern_Era/Normal/ModernEraTRIAL-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Modern_Era/Normal/ModernEraTRIAL-BoldItalic.woff2') format('woff2'),
+        url('./fonts/Modern_Era/Normal/ModernEraTRIAL-BoldItalic.woff') format('woff');
     font-weight: bold;
     font-style: italic;
     font-display: swap;
@@ -94,10 +94,10 @@ italics: Modern Era 300, 16px
 
 @font-face {
     font-family: 'Modern Era TRIAL';
-    src: url('.fonts/Modern_Era/Normal/ModernEraTRIAL-ExtraBold.eot');
-    src: url('.fonts/Modern_Era/Normal/ModernEraTRIAL-ExtraBold.eot?#iefix') format('embedded-opentype'),
-        url('.fonts/Modern_Era/Normal/ModernEraTRIAL-ExtraBold.woff2') format('woff2'),
-        url('.fonts/Modern_Era/Normal/ModernEraTRIAL-ExtraBold.woff') format('woff');
+    src: url('./fonts/Modern_Era/Normal/ModernEraTRIAL-ExtraBold.eot');
+    src: url('./fonts/Modern_Era/Normal/ModernEraTRIAL-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Modern_Era/Normal/ModernEraTRIAL-ExtraBold.woff2') format('woff2'),
+        url('./fonts/Modern_Era/Normal/ModernEraTRIAL-ExtraBold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -105,10 +105,10 @@ italics: Modern Era 300, 16px
 
 @font-face {
     font-family: 'Modern Era TRIAL';
-    src: url('.fonts/Modern_Era/Normal/ModernEraTRIAL-BlackItalic.eot');
-    src: url('.fonts/Modern_Era/Normal/ModernEraTRIAL-BlackItalic.eot?#iefix') format('embedded-opentype'),
-        url('.fonts/Modern_Era/Normal/ModernEraTRIAL-BlackItalic.woff2') format('woff2'),
-        url('.fonts/Modern_Era/Normal/ModernEraTRIAL-BlackItalic.woff') format('woff');
+    src: url('./fonts/Modern_Era/Normal/ModernEraTRIAL-BlackItalic.eot');
+    src: url('./fonts/Modern_Era/Normal/ModernEraTRIAL-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Modern_Era/Normal/ModernEraTRIAL-BlackItalic.woff2') format('woff2'),
+        url('./fonts/Modern_Era/Normal/ModernEraTRIAL-BlackItalic.woff') format('woff');
     font-weight: 900;
     font-style: italic;
     font-display: swap;
@@ -116,10 +116,10 @@ italics: Modern Era 300, 16px
 
 @font-face {
     font-family: 'Modern Era TRIAL';
-    src: url('.fonts/Modern_Era/Normal/ModernEraTRIAL-MediumItalic.eot');
-    src: url('.fonts/Modern_Era/Normal/ModernEraTRIAL-MediumItalic.eot?#iefix') format('embedded-opentype'),
-        url('.fonts/Modern_Era/Normal/ModernEraTRIAL-MediumItalic.woff2') format('woff2'),
-        url('.fonts/Modern_Era/Normal/ModernEraTRIAL-MediumItalic.woff') format('woff');
+    src: url('./fonts/Modern_Era/Normal/ModernEraTRIAL-MediumItalic.eot');
+    src: url('./fonts/Modern_Era/Normal/ModernEraTRIAL-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Modern_Era/Normal/ModernEraTRIAL-MediumItalic.woff2') format('woff2'),
+        url('./fonts/Modern_Era/Normal/ModernEraTRIAL-MediumItalic.woff') format('woff');
     font-weight: 500;
     font-style: italic;
     font-display: swap;
@@ -127,10 +127,10 @@ italics: Modern Era 300, 16px
 
 @font-face {
     font-family: 'Modern Era TRIAL';
-    src: url('.fonts/Modern_Era/Normal/ModernEraTRIAL-Italic.eot');
-    src: url('.fonts/Modern_Era/Normal/ModernEraTRIAL-Italic.eot?#iefix') format('embedded-opentype'),
-        url('.fonts/Modern_Era/Normal/ModernEraTRIAL-Italic.woff2') format('woff2'),
-        url('.fonts/Modern_Era/Normal/ModernEraTRIAL-Italic.woff') format('woff');
+    src: url('./fonts/Modern_Era/Normal/ModernEraTRIAL-Italic.eot');
+    src: url('./fonts/Modern_Era/Normal/ModernEraTRIAL-Italic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Modern_Era/Normal/ModernEraTRIAL-Italic.woff2') format('woff2'),
+        url('./fonts/Modern_Era/Normal/ModernEraTRIAL-Italic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
     font-display: swap;
@@ -138,10 +138,10 @@ italics: Modern Era 300, 16px
 
 @font-face {
     font-family: 'Modern Era TRIAL';
-    src: url('.fonts/Modern_Era/Normal/ModernEraTRIAL-Medium.eot');
-    src: url('.fonts/Modern_Era/Normal/ModernEraTRIAL-Medium.eot?#iefix') format('embedded-opentype'),
-        url('.fonts/Modern_Era/Normal/ModernEraTRIAL-Medium.woff2') format('woff2'),
-        url('.fonts/Modern_Era/Normal/ModernEraTRIAL-Medium.woff') format('woff');
+    src: url('./fonts/Modern_Era/Normal/ModernEraTRIAL-Medium.eot');
+    src: url('./fonts/Modern_Era/Normal/ModernEraTRIAL-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Modern_Era/Normal/ModernEraTRIAL-Medium.woff2') format('woff2'),
+        url('./fonts/Modern_Era/Normal/ModernEraTRIAL-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
