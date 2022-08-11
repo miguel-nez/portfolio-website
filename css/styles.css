@@ -327,8 +327,44 @@ h2 {
 }
 
 .basic-details {
+    margin-top: 80px;
+    max-width: 400px;
     padding-left: 16px;
     border-left: 1px solid black;
+    display: grid;
+    grid-template-columns: [first] 40px [line2] auto [end];
+    grid-template-rows: [row1-start] min-content [row2-start] max-content [row3-start] max-content [end];
+
+}
+
+.det-icon1 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+.det-icon2 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+.det-icon3 {
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+
+.det-1 {
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+.det-2 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.det-3 {
+    grid-column-start: 2;
+    grid-row-start: 3;
 }
 
 .challange {
