@@ -178,6 +178,7 @@ h2 {
     font-weight: 300;
     margin: 0px;
     font-size: 20px;
+    line-height: 24px;
 }
 
 h3 {
@@ -286,22 +287,43 @@ h2 {
 
 /* Simplex */
 
-.wrapper {
-    margin: 0 16px 0;
+#simplex {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid black;
 }
 
-.proj-img {
-    width: 80%;
-    text-align: right;
+.wrapper {
+    margin: 0 16px 0;
+    max-width: 1200px;
 }
+
+/* Overview */
 
 .proj-name {
     font-size: 40px;
     padding-top: 32px;
+    text-transform: uppercase;
 }
 
 .proj-sub {
-    padding-bottom: 45px;
+    padding-top: 8px;
+    padding-bottom: 16px;
+    max-width: 252px;
+}
+
+.proj-img img {
+    display: block;
+    width: 82%;
+    max-width: 600px;
+    margin: 0 0 0 15%;
+}
+
+.arrow_down {
+    width: 32px;
+    position: absolute;
+    top: 640px;
+    margin-left: 16px;
 }
 
 .basic-details {
@@ -311,13 +333,17 @@ h2 {
 
 .challange {
     padding-left: 16px;
+    margin-top: 48px;
     border-left: 1px solid black;
 }
 
 .solution {
     padding-left: 16px;
+    padding-top: 20px;
     border-left: 1px solid black;
 }
+
+/* Why Simplex */
 
 .interlude {
     margin: 90px auto;
