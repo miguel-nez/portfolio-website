@@ -343,7 +343,7 @@ main {
 .proj-img img {
     display: block;
     width: 82%;
-    max-width: 600px;
+    max-width: 400px;
     margin: 0 0 0 15%;
 }
 
@@ -409,9 +409,91 @@ main {
 
 /* Why Simplex */
 
-.interlude {
-    margin: 90px auto;
-    text-align: center;
+/* Problem Statement Section */
+
+.prob-stat {
+    font-style: italic;
+    border-left: 1px solid black;
+    padding-left: 16px;
+}
+
+/* Competitor Analysis */
+
+.compet-sec {
+    margin-top: 80px;
+}
+
+.observ-sec {
+    display: inline-block;
+    text-align: left;
+    margin: 36px auto 55px;
+    padding: 29px;
+    max-width: 380px;
+    border: 1px solid black;
+}
+
+.observ-sec ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 24px;
+    margin-bottom: 0;
+}
+
+.observ-sec li {
+    margin-bottom: 10px;
+}
+
+.observ-sec li:last-child {
+    margin-bottom: 0;
+}
+
+.frame1, .frame2 {
+text-align: center;
+}
+
+.features-sec {
+    display: inline-block;
+    text-align: left;
+    padding: 29px;
+    max-width: 380px;
+    border: 1px solid black;
+}
+
+.features-sec ul{
+    list-style-position: inside;
+    padding: 0;
+    margin-top: 24px;
+    margin-bottom: 0;
+
+}
+
+.features-sec li {
+    margin-bottom: 10px;
+    list-style-image: url(../img/3_simplex/competitor_analysis/features_list/half-circle.svg);
+}
+
+.features-sec ul:last-child {
+    margin-bottom: 0;
+}
+
+.features-sec .full-element {
+    list-style-image: url(../img/3_simplex/competitor_analysis/features_list/full-circle.svg);
+}
+
+.features-sec .empty-element {
+    list-style-image: url(../img/3_simplex/competitor_analysis/features_list/empty-circle.svg);
+}
+
+.interview-sec {
+    margin-top: 36px;
+}
+
+.work-links a {
+    display: inline-block;
+    text-decoration: underline 1px;
+    text-underline-offset: 0.1em;
+    margin-bottom: 8px;
+    font-weight: 300;
 }
 
 /* Footer */
