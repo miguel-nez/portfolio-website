@@ -179,6 +179,7 @@ h2 {
     margin: 0px;
     font-size: 20px;
     line-height: 24px;
+    padding-top: 4px;
 }
 
 h3 {
@@ -192,6 +193,9 @@ p {
     margin: unset;
 }
 
+h1 + p {
+    padding-top: 16px;
+}
 
 /* Links */
 a {
@@ -241,10 +245,6 @@ main {
 
 .image {
     line-height: 0;
-}
-
-h2 {
-    padding-top: 4px;
 }
 
 .description {
