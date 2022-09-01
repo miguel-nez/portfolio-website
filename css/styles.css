@@ -496,6 +496,44 @@ text-align: center;
     font-weight: 300;
 }
 
+/* Carousel */
+
+.slider-wrapper {
+    margin: 1rem;
+    overflow: scroll;
+  }
+  
+  .slides-container {
+    height: auto;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .slide {
+    width: 80%;
+    height: 100%;
+    flex: 1 0 100%;
+    margin-right: 16px;
+  }
+  
+  .slide:nth-child(1) {
+  }
+  
+  .slide:nth-child(2) {
+  }
+  
+  .slide:nth-child(3) {
+  }
+  
+  .slide:nth-child(4) {
+  }
+
 /* Footer */
 
 .contact {
