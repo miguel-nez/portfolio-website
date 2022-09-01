@@ -322,9 +322,6 @@ main {
     max-width: 300px;
 }
 
-.interlude5 {
-
-}
 
 /* Overview */
 
@@ -417,37 +414,38 @@ main {
     padding-left: 16px;
 }
 
-/* Competitor Analysis */
+/* Research */
 
 .compet-sec {
     margin-top: 80px;
 }
 
-.observ-sec {
+.frame-list {
     display: inline-block;
     text-align: left;
     margin: 36px auto 55px;
     padding: 29px;
+    width: 90vw;
     max-width: 380px;
     border: 1px solid black;
 }
 
-.observ-sec ul {
+.frame-list ul {
     list-style: none;
     padding: 0;
     margin-top: 24px;
     margin-bottom: 0;
 }
 
-.observ-sec li {
+.frame-list li {
     margin-bottom: 10px;
 }
 
-.observ-sec li:last-child {
+.frame-list li:last-child {
     margin-bottom: 0;
 }
 
-.frame1, .frame2 {
+.frame {
 text-align: center;
 }
 
@@ -456,6 +454,7 @@ text-align: center;
     text-align: left;
     padding: 29px;
     max-width: 380px;
+    width: 90vw;
     border: 1px solid black;
 }
 
@@ -488,12 +487,24 @@ text-align: center;
     margin-top: 36px;
 }
 
-.work-links a {
+#simplex a {
     display: inline-block;
     text-decoration: underline 1px;
     text-underline-offset: 0.1em;
     margin-bottom: 8px;
     font-weight: 300;
+}
+
+.persona-sec {
+    margin-top: 36px;
+}
+
+.wireframes-sec {
+    margin-top: 36px;
+}
+
+.usability-sec {
+    margin-top: 36px;
 }
 
 /* Carousel */
@@ -533,6 +544,25 @@ text-align: center;
   
   .slide:nth-child(4) {
   }
+
+.final-sec {
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+.img-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.img-prototype {
+    margin-top: 36px;
+    width: 70vw;
+    max-width: 400px;
+}
+
+
+
 
 /* Footer */
 
