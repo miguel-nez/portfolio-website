@@ -283,6 +283,7 @@ main {
 .profile_pic {
     display: block;
     margin: 64px auto;
+    width: 150px;
 }
 
 /* Simplex */
