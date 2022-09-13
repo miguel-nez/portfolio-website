@@ -240,6 +240,45 @@ main {
     padding-top: 60px;
 }
 
+ /* Column Layout */
+
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .column {
+      flex: 1
+    }
+    .image {
+        border-bottom: 1px solid black;
+    }
+    .description .year {
+        margin-top: auto;
+    }
+    #about .row {
+        padding: 16px;
+    }
+    #about .column {
+        padding-right: 16px;
+        padding-bottom: 36px;
+    }
+    #about {
+        margin-bottom: 36px;
+    }
+
+}
 
 /* Work Section */
 
@@ -283,16 +322,10 @@ main {
 .profile_pic {
     display: block;
     margin: 64px auto;
-    width: 150px;
+    width: 200px;
 }
 
 /* Simplex */
-
-#simplex {
-    display: flex;
-    flex-direction: column;
-    border-bottom: 1px solid black;
-}
 
 .wrapper {
     margin: 0 16px 0;
