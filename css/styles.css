@@ -172,6 +172,7 @@ h1 {
     font-weight: 400;
     margin: 0px;
     font-size: 20px;
+    padding-bottom: 16px;
 }
 
 h2 {
@@ -193,8 +194,8 @@ p {
     margin: unset;
 }
 
-h1 + p {
-    padding-top: 16px;
+.leftie {
+    margin-bottom: 16px;
 }
 
 /* Links */
@@ -242,8 +243,6 @@ main {
 
  /* Column Layout */
 
-
-
 .row {
   display: flex;
   flex-direction: row;
@@ -255,29 +254,6 @@ main {
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
-}
-
-@media screen and (min-width: 768px) {
-    .column {
-      flex: 1
-    }
-    .image {
-        border-bottom: 1px solid black;
-    }
-    .description .year {
-        margin-top: auto;
-    }
-    #about .row {
-        padding: 16px;
-    }
-    #about .column {
-        padding-right: 16px;
-        padding-bottom: 36px;
-    }
-    #about {
-        margin-bottom: 36px;
-    }
-
 }
 
 /* Work Section */
@@ -337,6 +313,7 @@ main {
 .interlude {
     margin: 90px auto;
     text-align: center;
+    max-width: 600px;
 }
 
 .interlude2 {
@@ -348,7 +325,7 @@ main {
 }
 
 .interlude3 {
-    width: 30%;
+    max-height: 400px;
 }
 
 .interlude4-1, .interlude4-2 {
@@ -567,17 +544,6 @@ text-align: center;
     margin-right: 16px;
   }
   
-  .slide:nth-child(1) {
-  }
-  
-  .slide:nth-child(2) {
-  }
-  
-  .slide:nth-child(3) {
-  }
-  
-  .slide:nth-child(4) {
-  }
 
 .final-sec {
     margin-top: 36px;
@@ -595,6 +561,62 @@ text-align: center;
     max-width: 400px;
 }
 
+@media screen and (min-width: 768px) {
+
+    /* WORK */
+    .column {
+      flex: 1
+    }
+    .image {
+        border-bottom: 1px solid black;
+    }
+    .description .year {
+        margin-top: auto;
+    }
+
+    /* ABOUT */
+    #about .row {
+        padding: 16px;
+    }
+    #about .column {
+        padding-right: 16px;
+        padding-bottom: 36px;
+    }
+    #about {
+        margin-bottom: 36px;
+    }
+
+    /* SIMPLEX */
+    .wrapper {
+        max-width: 740px;
+        margin: 0 auto;
+    }
+    .proj-img {
+        float: right;
+    }
+
+    .details-sec {
+        width: 50%;
+    }
+    .leftie {
+        padding-right: 32px;
+    }
+    .prob-stat {
+        align-self: center;
+    }
+    .interlude {
+        align-items: center;
+        justify-content: center;
+    }
+    .frame {
+        display: unset;
+    }
+    
+    .frame-list {
+        margin: unset;
+    }
+
+}
 
 
 
